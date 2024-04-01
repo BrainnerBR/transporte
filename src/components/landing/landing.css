@@ -1,0 +1,373 @@
+h1,h2,h3{
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: last baseline;
+    padding: 3vh;
+    color: #f1ece7;
+    background-color: #090909;
+    margin-left: calc(50% - 50%); /* Ajusta el margen izquierdo para centrar el header */
+    width: 100%; /* Establece el ancho del header al 75% de la pantalla */
+    position: fixed; /* Fija el encabezado en la parte superior de la pantalla */
+    top: 0; /* Lo sitúa en la parte superior */
+    z-index: 999; /* Asegura que esté sobre cualquier otra cosa en la página */
+}
+  
+  .navbar {
+    text-decoration: none;
+  }
+  
+  .brand {
+    margin: 0;
+ 
+  }
+  
+  
+  a {
+    color: #f1ece7; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff; 
+    transition: 0.5s ease-in-out;
+  }
+  
+
+  
+  .sticky-btn {
+    position: fixed; /* Hace que el botón sea fijo en la pantalla */
+    right: 20px; /* Ajusta la posición horizontalmente desde el lado derecho */
+    border-radius: 10vh;
+    font-size: 2vh;
+    padding: 1.5vh 1.5vh;
+    color: #f1ece7;
+    background-color: #000;
+    border: #f1ece7 solid 2px;
+    cursor: pointer;
+}
+
+  
+  .sticky-btn:hover {
+    border: solid #fff 2px;
+    color: #fff;
+    background-color: #e6621f;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .section-one {
+    position: relative; /* Establece una posición relativa */
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)), url(../../assets/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .section-one h1 {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+  }
+  
+  .section-one h3 {
+    font-size: 2.2vh;
+    margin-bottom: 3vh;
+  }
+  
+  .section-one button {
+    font-size: 2.8vh;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 5vh;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    position: sticky;
+  }
+  
+  .section-one button:hover {
+    background-color: #e6621f;
+    color: #f1ece7;
+    border: 2px solid #f1ece7;
+    transition: 0.2s ease-in-out;
+  }
+
+  .section-two {
+    background-color: #090909;
+    padding-bottom: 5vh;
+    padding: 2vh;
+}
+
+.sobreNosotros {
+    text-align: left;
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 1200px; /* Ancho máximo */
+    font-size: 2.2vh;
+    word-spacing: 0.5vh;
+    color: #f1ece7;
+    padding-top: 5vh;
+}
+.sobreNosotros h2{
+    text-decoration: underline;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15vh; 
+    padding-bottom: 5vh;
+}
+
+
+.caracteristica {
+    width: calc(33.33% - 15vh);
+    padding: 0 10px;
+}
+
+.caracteristica h3 {
+    text-align: center;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+    color: #f1ece7;
+    text-decoration: underline;
+}
+
+.caracteristica p {
+    text-align: left;
+    font-size: 2vh;
+    line-height: 1.5;
+    color: #f1ece7; /* Color de texto */
+    font-weight: 500;
+}
+
+.section-three {
+    background-color: #f1ece7;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1vh;
+}
+
+.carrusel h2 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 4vh;
+    color: #333;
+}
+
+.right-container,
+.left-container {
+    flex: 1;
+    padding: 0 10px;
+
+}
+.container1, .container2{
+    padding-right: 10vh;
+    padding-left: 10vh;
+}
+
+.container1 .left-container p {
+    font-size: 6vh; 
+    color: #333;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 15vh;
+}
+
+.right-container,
+.left-container {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.right-container img {
+    width: 70%;
+    border-radius: 5vh;
+}
+
+.container2 .left-container p {
+    font-size: 6vh;
+    color: #333;
+    text-align: center;
+}
+
+.section-four {
+    margin: 0 auto; 
+    padding: 50px; 
+    text-align: center;
+    background-color: #090909;
+}
+
+.joinContainer {
+    max-width: 85%; 
+    margin: -15vh auto 5vh; 
+    background-color: #e6621f; 
+    padding: 3vh;
+    border-radius: 25px;
+
+}
+
+.joinContainer h2 {
+    color: #fff; 
+    font-size: 3vh; 
+    margin-bottom: 20px; 
+}
+
+.joinContainer p {
+    color: #fff; 
+    font-size: 2.5vh; 
+    margin-bottom: 30px; 
+}
+
+.joinContainer button {
+    padding: 1vh 2vh; 
+    border-radius: 5vh;
+    font-size: 4vh; 
+    background-color: #fff; 
+    color: #e6621f; 
+    border: none; 
+    cursor: pointer; 
+}
+.joinContainer button:hover{
+    background-color: #090909;
+    color: #f1ece7;
+    border: #f0f0f0 solid 2px;
+}
+
+footer {
+    background-color: #090909;
+    color: #fff; 
+    padding: 5vh 0; 
+}
+
+.footContainer {
+    display: flex; /* Flexbox para dividir el footer en 2 columnas */
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    max-width: 100%; 
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.leftContainer, .rightContainer {
+    flex: 1; /* Las columnas tienen el mismo ancho */
+    text-align: center; 
+}
+
+.leftContainer h1 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+.leftContainer h2, .rightContainer h2 {
+    margin: 0; 
+    font-size: 2vh; 
+    padding-bottom: 1.5vh;
+}
+
+.rightContainer {
+    text-align: center; /* Centra los elementos dentro del rightContainer */
+}
+
+.rightContainer ul {
+    padding: 0; 
+    list-style: none; 
+    font-size: 1.8vh;
+    display: inline-block; /* Cambia a inline-block */
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+.rightContainer li {
+    margin-bottom: 10px; 
+}
+
+.rightContainer a {
+    color: #fff; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.rightContainer a:hover {
+    text-decoration: underline; 
+}
+
+.bottom {
+    width: 100%;
+    text-align: center; 
+    margin-top: 10vh; 
+}
+
+.bottom p {
+    margin: 0; 
+    font-size: 1.5vh;
+}
+
+.bottom a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 1.5vh;
+    cursor: pointer;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 60px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

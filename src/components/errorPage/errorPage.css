@@ -1,0 +1,11 @@
+
+  /* Contenedor principal */
+  #error-page {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.781)), url(../../assets/erik-mclean-sxiSod0tyYQ-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+  }
+  

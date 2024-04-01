@@ -1,17 +1,32 @@
+import './index.css'
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import Landing from './components/landing/landing';
+import ErrorPage from './components/errorPage/errorPage';
+import Home from './components/home/home'
+import CrearViaje from './components/crearViaje/crearViaje'
+import SignUp from './components/signUp/SignUp';
+import SignIn from './components/signIn/SignIn';
+import PanelSocio from './components/panelSocio/panelSocio'
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="*" element={<ErrorPage />} />
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/crearViaje' element={<CrearViaje/>}/>
+        <Route path='/signUp' element={<SignUp/>}/>
+        <Route path='/signIn' element={<SignIn/>}/>
+        <Route path='/panelSocio' element={<PanelSocio/>}/>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+export default App;

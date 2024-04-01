@@ -1,0 +1,141 @@
+.navbar-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #090909;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin-right: 5vh;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu ul li a:hover{
+    color: #e6621f;
+    transition: 0.3s ease-in-out;
+}
+
+.btn {
+    background-color: #e6621f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2vh;
+
+}
+.btn:hover{
+    color:#e6621f;
+    background-color: #f1ece7;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-left {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #090909;
+    padding-top: 20px;
+}
+
+.navbar-left ul {
+    list-style: none;
+    padding-top: 10vh;
+    height:100% ;
+
+}
+
+.navbar-left ul li {
+    margin-bottom: 10vh;
+}
+
+.navbar-left ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-left ul li a:hover{
+    color: #e6621f;
+    transition: 0.3s ease-in-out;
+}
+
+.last-option {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 70px; 
+    margin-left: 150px; 
+    padding: 20px; 
+}
+.viajesContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+  }
+  
+  .viajeItem {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .viajeItem h3 {
+    margin-top: 0; 
+  }
+  
+  
+  .columnTitle {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  .viajesTable {
+    width: 100%;
+    border-collapse: collapse; /* Fusiona los bordes de la tabla */
+  }
+  
+  .viajesTable th,
+  .viajesTable td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc; /* Borde de las celdas */
+  }
+  .viajesTable td{
+    cursor: pointer;
+  }
+  
+  .viajesTable th {
+    background-color: #f0f0f0; /* Color de fondo de las celdas de encabezado */
+    font-weight: bold;
+
+  }
+  
+  .viajesTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo de las filas pares */
+  }
+  
+  
