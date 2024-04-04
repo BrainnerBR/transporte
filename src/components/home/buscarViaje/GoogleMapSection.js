@@ -41,12 +41,16 @@ function GoogleMapSection() {
   useEffect(() => {
     if (destination && typeof destination.lat === 'number' && !isNaN(destination.lat) &&
         destination.lng && typeof destination.lng === 'number' && !isNaN(destination.lng)) {
+          map.panTo({
+            lat: destination.lat,
+            lng: destination.lng
+          })
       setCenter({
         lat: destination.lat,
         lng: destination.lng
       });
     }
-  }, [destination]);
+  }, [source,destination]);
 
   const [map, setMap] = useState(null);
 
@@ -90,7 +94,7 @@ function GoogleMapSection() {
           <OverlayView
           position={{lat:destination.lat, lng:destination.lng}}
           icon={{
-            url:'../../../assets/paquete.png',
+            url:'/paquete.png',
             scaledSize:{
               width:20,
               height:20

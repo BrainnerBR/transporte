@@ -63,7 +63,7 @@ function InputItem({ type }) {
                         setValue(place);
                     },
                     components: {
-                        DropdownIndicator: false
+                        DropdownIndicator: value ? null: false
                     },
                     styles: {
                         control: (provided) => ({

@@ -1,11 +1,12 @@
 import React from 'react';
 import './panelSocio.css'
+import { FaTruckFast } from 'react-icons/fa6';
 
 const panelSocio = () => {
   return (
     <div>
         <header className="navbar-top">
-            <div className="logo">CargoLink</div>
+            <div className="logo"><FaTruckFast/> CargoLink</div>
             <nav className="nav-menu">
             <ul>
                 <li>
