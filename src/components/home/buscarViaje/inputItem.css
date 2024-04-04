@@ -1,0 +1,7 @@
+.inputViaje {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    width: calc(100% - 22px); /* Restamos el espacio del padding y el borde */
+    margin-bottom: 20px;
+  }

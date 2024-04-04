@@ -9,7 +9,7 @@ const panelSocio = () => {
             <nav className="nav-menu">
             <ul>
                 <li>
-                <a href="/signUp">Socios</a>
+                <a href="/home">Inicio</a>
                 </li>
                 <li>
                 <a href="/">Como funciona?</a>
@@ -19,9 +19,6 @@ const panelSocio = () => {
                 </li>
             </ul>
             </nav>
-            <button className="btn">
-            Pedir Transporte
-            </button>
       </header>
 
       <nav className="navbar-left">
@@ -43,7 +40,7 @@ const panelSocio = () => {
       <div className='mainContainerPanel'>
       <div class="profile-container">
         <div class="profile-info">
-            <img src="https://images.unsplash.com/photo-1495211895963-08d8812dcbf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlcmZpbCUyMGRlJTIwaW5zdGFncmFtfGVufDB8fDB8fHww" alt="Profile Picture" class="profile-picture"/>
+            <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile Picture" class="profile-picture"/>
             <div class="profile-details">
                 <h2>User Name</h2>
                 <div class="user-stats">

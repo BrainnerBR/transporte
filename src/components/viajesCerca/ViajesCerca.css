@@ -1,0 +1,50 @@
+
+.viajesContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+  }
+  
+  .viajeItem {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .viajeItem h3 {
+    margin-top: 0; 
+  }
+  
+  
+  .columnTitle {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  .viajesTable {
+    width: 100%;
+    border-collapse: collapse; /* Fusiona los bordes de la tabla */
+  }
+  
+  .viajesTable th,
+  .viajesTable td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc; /* Borde de las celdas */
+  }
+  .viajesTable td{
+    cursor: pointer;
+  }
+  
+  .viajesTable th {
+    background-color: #f0f0f0; /* Color de fondo de las celdas de encabezado */
+    font-weight: bold;
+
+  }
+  
+  .viajesTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo de las filas pares */
+  }
+  
+  

@@ -1,0 +1,22 @@
+.sourceLabelContainer {
+    max-width: 15vh; 
+    max-height: 10vh;
+    overflow: hidden; 
+    display: inline-block;
+}
+
+.sourceLabelBox {
+    padding: 2px;
+    border-radius: 15px;
+    background-color: #000;
+    font: bold;
+    max-width: 100%; /* Ajuste el ancho máximo al 100% del contenedor padre */
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
+.sourceLabel {
+    color: #fff;
+    font-size: 14px;
+}
